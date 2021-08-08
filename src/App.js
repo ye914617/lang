@@ -33,6 +33,7 @@ function App() {
           <Route path="/adopt" component={Adopt} />
           <Route path="/checklist" component={Checklist} />
           <Route component={Home} />
+          {/*if nothing match the link then go to Home page*/}
         </Switch>
 
         {loginPage && (isLogin ? <Welcome /> : <Login />)}
