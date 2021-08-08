@@ -32,6 +32,7 @@ function App() {
           <Route path="/donate" component={Donate} />
           <Route path="/adopt" component={Adopt} />
           <Route path="/checklist" component={Checklist} />
+          <Route component={Home} />
         </Switch>
 
         {loginPage && (isLogin ? <Welcome /> : <Login />)}
