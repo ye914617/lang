@@ -15,7 +15,7 @@
     "uuid": "^8.3.2",
     "web-vitals": "^1.1.2"
   },
-  "homepage": "http://hailcovid19.github.io/project",
+  "homepage": "http://ye914617.github.io/lang",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

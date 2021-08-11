@@ -12,6 +12,8 @@ Lang 串接台灣的全國動物收容管理系統的 api，獲得所內動物�
   ![GITHUB](./forReadme/checklist.PNG)
 - 使用者可以通過填寫表單給予回饋
   ![GITHUB](./forReadme/form.PNG)
+- 有搜索功能
+- Use async await instead of call back.
 
 ## Why I used the technologies
 
