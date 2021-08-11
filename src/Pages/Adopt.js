@@ -28,7 +28,7 @@ const Adopt = () => {
               <div className="adopt-container" key={item.id}>
                 <h5>{index + 1}</h5>
                 <div id={item.id} className="adopts">
-                  <img src={item.image} alt="adopt" />
+                  <img src={item.image} alt="Img not provided" />
                   <p>
                     <span className="adopt-dot">
                       <BsDot />
