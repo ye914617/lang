@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/lang/static/css/main.c0eb1e73.chunk.css",
+    "main.js": "/lang/static/js/main.5c3d262e.chunk.js",
+    "main.js.map": "/lang/static/js/main.5c3d262e.chunk.js.map",
+    "runtime-main.js": "/lang/static/js/runtime-main.747a2dc0.js",
+    "runtime-main.js.map": "/lang/static/js/runtime-main.747a2dc0.js.map",
+    "static/js/2.d6e2ab5e.chunk.js": "/lang/static/js/2.d6e2ab5e.chunk.js",
+    "static/js/2.d6e2ab5e.chunk.js.map": "/lang/static/js/2.d6e2ab5e.chunk.js.map",
+    "index.html": "/lang/index.html",
+    "static/css/main.c0eb1e73.chunk.css.map": "/lang/static/css/main.c0eb1e73.chunk.css.map",
+    "static/js/2.d6e2ab5e.chunk.js.LICENSE.txt": "/lang/static/js/2.d6e2ab5e.chunk.js.LICENSE.txt",
+    "static/media/boneCare.07f5ad75.jpg": "/lang/static/media/boneCare.07f5ad75.jpg",
+    "static/media/boneToy.8ccfe8cc.jpg": "/lang/static/media/boneToy.8ccfe8cc.jpg",
+    "static/media/catTeaser.30b524eb.jpg": "/lang/static/media/catTeaser.30b524eb.jpg",
+    "static/media/frisbee.f84bcd0b.webp": "/lang/static/media/frisbee.f84bcd0b.webp",
+    "static/media/our1.5aff4052.jpg": "/lang/static/media/our1.5aff4052.jpg",
+    "static/media/our2.54e2b96c.jpg": "/lang/static/media/our2.54e2b96c.jpg",
+    "static/media/petCan.e9903a29.jpg": "/lang/static/media/petCan.e9903a29.jpg",
+    "static/media/petFeed.da588eea.webp": "/lang/static/media/petFeed.da588eea.webp",
+    "static/media/slider1.8c1d9bb3.jpg": "/lang/static/media/slider1.8c1d9bb3.jpg",
+    "static/media/slider2.65b6d8ea.jpg": "/lang/static/media/slider2.65b6d8ea.jpg",
+    "static/media/slider3.fcd7c7c0.jpg": "/lang/static/media/slider3.fcd7c7c0.jpg",
+    "static/media/slider4.6c6d9c71.jpg": "/lang/static/media/slider4.6c6d9c71.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.747a2dc0.js",
+    "static/js/2.d6e2ab5e.chunk.js",
+    "static/css/main.c0eb1e73.chunk.css",
+    "static/js/main.5c3d262e.chunk.js"
+  ]
+}
