@@ -117,7 +117,7 @@ const AppProvider = ({ children }) => {
       "https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=QcbUEzN6E6DL"
     );
     const data = await res.json();
-    const newData = data.slice(100, 105); //這裡決定要拿多少筆資料
+    const newData = data.slice(0, 205); //這裡決定要拿多少筆資料
     dispatch({ type: "GET_PET_DATA", payload: newData });
     petNotloading();
   };

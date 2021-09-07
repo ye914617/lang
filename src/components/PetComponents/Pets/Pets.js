@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Pets.css";
 import { BsDot } from "react-icons/bs";
 import { useGlobalContext } from "../../../Global/GlobalContext";
@@ -7,6 +7,29 @@ const Pets = () => {
   //new
   const { petState, adopt } = useGlobalContext();
   const { petData, loading } = petState;
+
+  //For infinite scroll
+  const petToShow = petData;
+  const [numOfPetToShow, setNumOfPetToShow] = useState(4);
+
+  const loadImage = () => {
+    if (numOfPetToShow < petToShow.length) {
+      setNumOfPetToShow((prev) => prev + 1);
+    }
+  };
+
+  const handleScroll = (event) => {
+    //可以改善成scroll動作結束才算一次scroll
+    if (
+      window.scrollY + window.innerHeight >=
+      document.documentElement.scrollHeight
+    ) {
+      loadImage();
+    }
+  };
+
+  window.addEventListener("scroll", handleScroll);
+  //For infinite scroll
 
   return (
     <div>
@@ -18,7 +41,7 @@ const Pets = () => {
         <>
           {petData.length > 0 ? (
             <div className="pet-info">
-              {petData.map((item, index) => {
+              {petToShow.slice(0, numOfPetToShow).map((item, index) => {
                 return (
                   <div className="pet-container" key={item.animal_id}>
                     <h5>{index + 1}</h5>
