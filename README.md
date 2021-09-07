@@ -11,7 +11,8 @@ Lang 串接台灣的全國動物收容管理系統的 api，獲得所內動物�
 - 除了領養動物外還可以捐贈物資，系統會自動結算總捐贈金額
   ![GITHUB](./forReadme/checklist.PNG)
 - 使用者可以通過填寫表單給予回饋
-  ![GITHUB](./forReadme/form.PNG)
+  ![GITHUB](./forReadme/form.PNG) -在可愛毛孩頁面有 infinite scroll 技術，減少一次渲染太多資訊的負擔
+  ![GITHUB](./for/Readme/infi.PNG)
 - 有搜索功能
 - Use async await instead of call back.
 
